@@ -13,8 +13,8 @@ export default function DefaultLayout({ children }) {
         <div className="absolute top-[20px] h-[45px] pt-[1.2vh] px-[25px] w-fit bg-white rounded-t-[10px] font-bold text-[17px]">
           Dashboard
         </div>
-        <main className="main_content bg-white h-[91vh] fixed top-[8vh] mr-[6.5px] border-y-[20px] border-white rounded-tl-none rounded-[10px] overflow-auto">
-          <div className="w-[92%] relative m-auto">{children}</div>
+        <main className="main_content bg-white h-[91vh] w-[calc(100%-6.5px)] mt-[8vh] border-t-[20px] border-b-[10px] border-white rounded-tl-none rounded-[10px] overflow-auto">
+          <div className="w-[93%] relative m-auto pb-[30px]">{children}</div>
         </main>
       </section>
     </div>

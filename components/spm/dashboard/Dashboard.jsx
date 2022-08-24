@@ -1,7 +1,7 @@
 import React from "react";
 import DefaultLayout from "../../layouts/DefaultLayout";
 
-export default function Dashboard() {
+export default function Properties() {
   return (
     <DefaultLayout>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima
