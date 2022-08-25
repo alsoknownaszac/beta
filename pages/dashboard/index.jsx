@@ -1,7 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import { FiAlertCircle, FiExternalLink } from "react-icons/fi";
-import DefaultLayout from "../components/layouts/DefaultLayout";
+import {
+  FiAlertCircle,
+  FiCalendar,
+  FiExternalLink,
+  FiLink,
+} from "react-icons/fi";
+import Image from "next/image";
 
 export default function index() {
   return (
@@ -315,13 +320,248 @@ export default function index() {
   );
 }
 
-// export const getServerSideProps = requireAuth(async (ctx) => {
-//   const user = {
-//     firstname: "Mercy",
-//   };
-//   return {
-//     props: {
-//       user,
-//     },
-//   };
-// });
+function DefaultLayout({ children }) {
+  return (
+    <div className="main_wrapper">
+      <Header />
+      <Sidebar />
+      <section className="main_content">{children}</section>
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <header className="fixed z-50 bg-blue-default ">
+      <div className="header">
+        <div className="nav_header">
+          <div className="flex">
+            <div className="flex mr-3">
+              <div className="flex flex-col items-center justify-center cursor-pointer mr-2">
+                <div className="icon_holder flex-shrink-0 items-center mb-2">
+                  <div className="icon_holder-xs icon-pattern bg-white shadow-md border border-blue-500 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-blue-500 justify-center ">
+                      <FiLink size="15" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center cursor-pointer">
+                <div className="icon_holder flex-shrink-0 items-center mb-2">
+                  <div className="icon_holder-xs icon-pattern bg-white shadow-md border border-blue-500 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-blue-500 justify-center ">
+                      <FiCalendar size="15" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="navbar_dropdown space-x-2">
+              <div className="header_profile_box">
+                <Image
+                  src="/images/avatar-1.jpg"
+                  className="w-8 h-8 bg-blue-default p-3 rounded-full inline-block"
+                  alt="avatar"
+                  width="40"
+                  height="40"
+                />
+                <span className="inline-block ml-3 mr-1">Uzor Mercy</span>
+                <i className="fa fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+function Sidebar() {
+  return (
+    <aside className="sidebar">
+      <div className="navbar_brand_box">
+        <a href="" className="logo  logo-dark">
+          <span className="logo-lg">
+            <Image
+              src="/images/logo.svg"
+              className="logo_img"
+              alt="Logo"
+              width="100%"
+              height="40"
+            />
+          </span>
+        </a>
+      </div>
+      <div data-sidebar="init" className="sidebar_menu_scroll">
+        <div className="sidebar_wrapper m-0 ">
+          <div className="simple_bar_height_auto_observer"></div>
+          <div className="sidebar_mask">
+            <div className="sidebar_offset">
+              <div className="sidebar_content_wrapper h-full overscroll-none overflow-hidden">
+                <div className="sidebar_content">
+                  <div id="sidebar_menu" className="m-active">
+                    <ul id="side_menu">
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/property.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2"> Dashboard</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/message.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Messages</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/property.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Properties</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/tenants.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Tenants</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/clients.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+
+                          <span className="ml-2">Clients</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/invoice.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+
+                          <span className="ml-2">Payments</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/complaint.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Complaints</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/requestService.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Service Request</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/enquiry.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Enquires</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/faq.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Reports</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/settings.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/dashboard">
+                          <Image
+                            src="/svg/icons/logout.svg"
+                            alt="dashboard"
+                            width="18"
+                            height="18"
+                          />
+                          <span className="ml-2">Logout</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style jsx>
+        {`
+          .logo_img {
+            height: 40px;
+          }
+          .sidebar_offset {
+            right: -12px;
+            bottom: 0px;
+          }
+          .active {
+            background: #ffffff;
+            color: #0d028b !important;
+          }
+          .active .active-icon {
+            filter: invert(17%) sepia(93%) saturate(2206%) hue-rotate(237deg)
+              brightness(23%) contrast(141%);
+          }
+        `}
+      </style>
+    </aside>
+  );
+}

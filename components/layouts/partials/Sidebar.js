@@ -57,6 +57,40 @@ export default function Sidebar() {
             <span className="ml-4">Properties</span>
           </button>
         </Link>
+        {url === "properties" && (
+          <div className="my-[4px] pr-4">
+            <Link href="/spm/properties">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                All Properties
+              </button>
+            </Link>
+            <Link href="/spm/properties/type">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Property Type
+              </button>
+            </Link>
+            <Link href="/spm/properties/categories">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Property Category
+              </button>
+            </Link>
+            <Link href="/spm/properties/vacant">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Vacant Property
+              </button>
+            </Link>
+            <Link href="/spm/properties/occupied">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Occupied Property
+              </button>
+            </Link>
+            <Link href="/spm/properties/recent">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Recently Added
+              </button>
+            </Link>
+          </div>
+        )}
         <Link href="/spm/tenants">
           <button
             className={`px-[15px] py-[12px] flex center text-left rounded-tr-none rounded-br-none rounded-[10px] ${
@@ -89,6 +123,25 @@ export default function Sidebar() {
             <span className="ml-4">Payments</span>
           </button>
         </Link>
+        {url === "payments" && (
+          <div className="my-[4px] pr-4">
+            <Link href="/spm/payments">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Invoice
+              </button>
+            </Link>
+            <Link href="/spm/payments/bills">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Bills
+              </button>
+            </Link>
+            <Link href="/spm/payments/utilities">
+              <button className="block w-full text-end pr-10 border-b-[1px] border-white font-normal focus:font-bold py-[8px]">
+                Utilities
+              </button>
+            </Link>
+          </div>
+        )}
         <Link href="/spm/complaints">
           <button
             className={`px-[15px] py-[12px] flex center text-left rounded-tr-none rounded-br-none rounded-[10px] ${

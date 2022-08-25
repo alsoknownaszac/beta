@@ -1,162 +1,315 @@
 import React from "react";
+import {
+  FiAlertCircle,
+  FiChevronRight,
+  FiExternalLink,
+  FiHome,
+  FiKey,
+  FiMaximize2,
+  FiUser,
+  FiUsers,
+} from "react-icons/fi";
 import DefaultLayout from "../../layouts/DefaultLayout";
 
 export default function Properties() {
   return (
     <DefaultLayout>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima
-      esse perferendis incidunt natus quas officiis sint veniam impedit, quos
-      sapiente nulla ex? Expedita qui asperiores quae ullam magnam nihil et
-      nobis quam eligendi, itaque suscipit dicta tenetur quidem soluta eum odit
-      mollitia quas quisquam laudantium nulla accusantium obcaecati harum iure
-      sint! Ipsa ipsum ad iure et eius debitis dolorem minus nihil? Dolor amet
-      eveniet adipisci facilis iure, voluptatum quasi, consequuntur voluptate
-      eaque quaerat voluptas. Blanditiis et corporis, nesciunt eius ex ipsam
-      mollitia reprehenderit aspernatur magni cumque. Suscipit voluptates
-      officia aut? Ut molestias accusantium illum, consequuntur aperiam
-      distinctio fugiat facilis quo cupiditate quam illo. Similique neque amet
-      maxime deleniti quis dolorem enim voluptatem ex quos exercitationem
-      temporibus cupiditate et delectus accusamus soluta iste error eum
-      recusandae aperiam accusantium, explicabo libero veniam doloremque.
-      Dignissimos dolorum officiis temporibus adipisci velit accusantium dolorem
-      quia numquam! Labore distinctio, mollitia praesentium ea facere saepe
-      ipsam atque exercitationem quos, minus totam accusantium at porro possimus
-      ad suscipit deserunt incidunt. Quaerat quibusdam vitae suscipit magnam?
-      Eligendi veritatis delectus reiciendis accusamus corporis tenetur nobis
-      similique exercitationem recusandae mollitia amet cupiditate enim, omnis
-      dolorem hic fugit impedit sunt non reprehenderit, commodi, quaerat nostrum
-      incidunt nam? Enim nobis voluptas eligendi reiciendis, eos quos
-      perferendis explicabo sint maiores dolores soluta quas qui, non hic
-      officia dicta recusandae optio impedit provident necessitatibus facilis
-      sit deleniti veritatis? Modi perspiciatis iste est suscipit quisquam
-      itaque voluptatibus omnis atque voluptates cumque? Fuga blanditiis error
-      et, reprehenderit, culpa nostrum adipisci, quae vel repellat magnam natus
-      consequatur. Sed labore quam odio earum ab at itaque ipsum minima
-      recusandae tenetur unde libero nobis exercitationem repellendus non a
-      molestias nostrum veniam aliquam, suscipit perferendis maxime autem! Ea,
-      harum. Reprehenderit cupiditate facere rerum ipsa sint voluptatibus sequi
-      impedit ipsam error fuga itaque perferendis nihil, animi amet pariatur
-      porro dolorum quasi libero explicabo odio delectus dolorem consequatur.
-      Dolorem assumenda neque consequatur incidunt deserunt, maxime architecto
-      minima sequi corporis a nobis, doloremque sed ipsam earum quia repellendus
-      est in voluptatibus. Dolores, laboriosam perspiciatis, voluptas porro
-      asperiores eos optio suscipit harum, eius maxime facere. Obcaecati
-      temporibus nisi sunt dicta praesentium accusamus error cum perspiciatis
-      atque eligendi hic odit rerum facere enim tenetur laborum, tempore
-      consectetur numquam nostrum nesciunt repellendus quisquam? Dolorum
-      perspiciatis modi culpa repudiandae illum enim eaque esse voluptatem
-      magnam. Ad fuga aut perspiciatis dolorem, officia optio et cum similique
-      accusantium officiis deserunt autem blanditiis fugiat sunt porro iure
-      repellat corrupti cupiditate dicta asperiores dignissimos minima itaque
-      rerum ab. Harum officia, fugit beatae possimus cupiditate aliquam tenetur
-      nisi asperiores eum numquam, dolore ex nostrum quam mollitia dolor
-      quisquam maiores, soluta modi officiis! Quod sit voluptas aspernatur
-      quisquam culpa cupiditate ipsa? Corporis provident nesciunt voluptatibus
-      distinctio vero enim veniam, explicabo accusantium porro facilis beatae
-      pariatur! Reprehenderit eveniet dignissimos consequuntur nihil est ab
-      quaerat soluta nobis omnis, in blanditiis rem delectus similique
-      accusantium velit sapiente quia corporis sed nesciunt labore minima
-      voluptatum consequatur. Eveniet, quia. Rem soluta adipisci quo
-      perspiciatis in expedita dolor voluptatum ut, beatae accusamus maiores
-      alias possimus amet. Eum quos doloremque, iste quis labore alias? Corporis
-      quae nisi ea magni eos alias similique, quasi totam corrupti ut expedita
-      dolore! Ad, magnam. Ipsum, expedita, deleniti tempora dolores aspernatur
-      minus tenetur dolorem neque autem dolor voluptates modi, quasi ratione eum
-      fugiat earum est. Cumque, perspiciatis, dolore quos provident mollitia et
-      asperiores commodi recusandae molestiae voluptas optio facilis sit odit
-      qui accusamus, consequuntur id ratione praesentium voluptatem labore dolor
-      error laboriosam veniam? Dolor, blanditiis mollitia. At accusamus
-      cupiditate consequatur, iure sit inventore veritatis dolore voluptate,
-      recusandae libero rem qui, beatae quam unde laborum? Voluptates officiis
-      placeat, natus consequatur veniam nesciunt fuga ab at nemo quo eum ullam,
-      dolores quisquam cupiditate quibusdam unde voluptatem, expedita dolorem
-      possimus officia? Illum eos quibusdam, incidunt libero tenetur voluptas in
-      delectus sit perspiciatis temporibus dolorem eligendi placeat consequuntur
-      sunt! Eum debitis consequatur cumque expedita nemo fugiat aliquid
-      exercitationem molestias? Ab hic delectus fugit, distinctio culpa dolores
-      numquam adipisci natus rerum? Rerum, dolorum! Expedita totam delectus hic.
-      Et odit sunt est tempore, vero ullam libero alias facilis in asperiores
-      nobis, quos optio impedit beatae, sapiente officiis aperiam. Excepturi
-      velit rerum, beatae accusantium voluptatem, cum numquam neque nobis animi
-      illum corporis corrupti vero natus in autem id ipsam maxime ratione esse.
-      Consequatur, necessitatibus voluptatibus tempora eos sed assumenda,
-      tempore hic quia in incidunt distinctio, cumque laborum cum ullam
-      reprehenderit explicabo officiis nesciunt eaque odit perferendis magnam.
-      Placeat impedit ut hic nulla quia, inventore et corrupti quibusdam eos,
-      quod dolores magni vel quae sit soluta est facere asperiores obcaecati
-      ducimus consectetur quas aperiam repudiandae natus nesciunt? Ipsum earum
-      dolore, praesentium sunt laborum quasi delectus quod vel eligendi?
-      Doloribus esse aliquam temporibus deserunt soluta minus repellendus harum
-      voluptatem nam perferendis nulla nostrum tempora, quam iusto, ex
-      asperiores quo. Deserunt odit inventore dolores doloremque repellendus id
-      autem saepe delectus, dolorem distinctio totam natus, nulla sunt non
-      laborum ducimus in harum esse cupiditate? Accusantium voluptate sed
-      beatae, sit aspernatur non eum earum iste magnam quo ipsum mollitia
-      voluptatibus molestiae cumque voluptas vero minima perspiciatis! Rerum
-      incidunt qui minus quas minima voluptatibus deserunt natus, in, reiciendis
-      voluptas voluptates velit tempora libero explicabo. Velit nisi suscipit
-      nobis, soluta esse, voluptatibus magni, et debitis doloribus quas fugit
-      est distinctio? Debitis labore tempore eos, iusto ipsam nulla veniam
-      pariatur dolorum eum, animi architecto voluptas officia voluptates laborum
-      ipsum velit omnis veritatis, distinctio reiciendis deleniti quam fugit
-      tenetur? Illo libero ut voluptatibus harum ea distinctio facere aliquid
-      soluta! Corrupti illum ipsa accusantium quod eaque enim consequatur, quos
-      facere nobis cupiditate? Maiores natus cumque explicabo? Iste quasi
-      consequatur doloribus perspiciatis, voluptas rem animi illum tempora
-      officiis nesciunt dicta. Assumenda laborum quas tenetur ratione! Nemo
-      facere non fugiat saepe dignissimos porro iure fuga maxime corporis
-      aliquam voluptatem laborum quaerat tempora culpa sed obcaecati qui, ullam
-      ducimus, ipsa nostrum. Recusandae, provident. Fuga, mollitia ratione?
-      Repellendus nulla consequatur minima quaerat provident ipsum delectus
-      molestias, totam assumenda voluptatibus facilis modi ducimus quibusdam
-      nihil velit libero vero quos, debitis accusamus a qui? Praesentium, quos
-      eveniet, perferendis explicabo voluptatibus placeat beatae molestias
-      mollitia, sunt expedita magnam aspernatur?recusandae libero rem qui,
-      beatae quam unde laborum? Voluptates officiis placeat, natus consequatur
-      veniam nesciunt fuga ab at nemo quo eum ullam, dolores quisquam cupiditate
-      quibusdam unde voluptatem, expedita dolorem possimus officia? Illum eos
-      quibusdam, incidunt libero tenetur voluptas in delectus sit perspiciatis
-      temporibus dolorem eligendi placeat consequuntur sunt! Eum debitis
-      consequatur cumque expedita nemo fugiat aliquid exercitationem molestias?
-      Ab hic delectus fugit, distinctio culpa dolores numquam adipisci natus
-      rerum? Rerum, dolorum! Expedita totam delectus hic. Et odit sunt est
-      tempore, vero ullam libero alias facilis in asperiores nobis, quos optio
-      impedit beatae, sapiente officiis aperiam. Excepturi velit rerum, beatae
-      accusantium voluptatem, cum numquam neque nobis animi illum corporis
-      corrupti vero natus in autem id ipsam maxime ratione esse. Consequatur,
-      necessitatibus voluptatibus tempora eos sed assumenda, tempore hic quia in
-      incidunt distinctio, cumque laborum cum ullam reprehenderit explicabo
-      officiis nesciunt eaque odit perferendis magnam. Placeat impedit ut hic
-      nulla quia, inventore et corrupti quibusdam eos, quod dolores magni vel
-      quae sit soluta est facere asperiores obcaecati ducimus consectetur quas
-      aperiam repudiandae natus nesciunt? Ipsum earum dolore, praesentium sunt
-      laborum quasi delectus quod vel eligendi? Doloribus esse aliquam
-      temporibus deserunt soluta minus repellendus harum voluptatem nam
-      perferendis nulla nostrum tempora, quam iusto, ex asperiores quo. Deserunt
-      odit inventore dolores doloremque repellendus id autem saepe delectus,
-      dolorem distinctio totam natus, nulla sunt non laborum ducimus in harum
-      esse cupiditate? Accusantium voluptate sed beatae, sit aspernatur non eum
-      earum iste magnam quo ipsum mollitia voluptatibus molestiae cumque
-      voluptas vero minima perspiciatis! Rerum incidunt qui minus quas minima
-      voluptatibus deserunt natus, in, reiciendis voluptas voluptates velit
-      tempora libero explicabo. Velit nisi suscipit nobis, soluta esse,
-      voluptatibus magni, et debitis doloribus quas fugit est distinctio?
-      Debitis labore tempore eos, iusto ipsam nulla veniam pariatur dolorum eum,
-      animi architecto voluptas officia voluptates laborum ipsum velit omnis
-      veritatis, distinctio reiciendis deleniti quam fugit tenetur? Illo libero
-      ut voluptatibus harum ea distinctio facere aliquid soluta! Corrupti illum
-      ipsa accusantium quod eaque enim consequatur, quos facere nobis
-      cupiditate? Maiores natus cumque explicabo? Iste quasi consequatur
-      doloribus perspiciatis, voluptas rem animi illum tempora officiis nesciunt
-      dicta. Assumenda laborum quas tenetur ratione! Nemo facere non fugiat
-      saepe dignissimos porro iure fuga maxime corporis aliquam voluptatem
-      laborum quaerat tempora culpa sed obcaecati qui, ullam ducimus, ipsa
-      nostrum. Recusandae, provident. Fuga, mollitia ratione? Repellendus nulla
-      consequatur minima quaerat provident ipsum delectus molestias, totam
-      assumenda voluptatibus facilis modi ducimus quibusdam nihil velit libero
-      vero quos, debitis accusamus a qui? Praesentium, quos eveniet, perferendis
-      explicabo voluptatibus placeat beatae molestias mollitia, sunt expedita
-      magnam aspernatur?
+      <div className="shadow-lg border-[1px] p-4 rounded-[10px] mb-6 mt-2 text-[16px] grid grid-cols-6 gap-4">
+        <div className="col-span-4">
+          <div className="w-full rounded-lg pl-3 grid grid-cols-4 gap-3">
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Rent Due Today </p>
+                  <span className=" text-xl font-bold">5</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern  bg-primary-light rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <i data-feather="alert-circle"></i>
+                      <FiAlertCircle size="18" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Rent Overdue</p>
+                  <span className="text-xl font-bold">10</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm  icon-pattern bg-green-500 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <i data-feather="external-link"></i>
+                      <FiExternalLink size="18" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Moving In</p>
+                  <span className=" text-xl font-bold">2</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern  bg-yellow-500 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <i data-feather="key"></i>
+                      <FiKey size="18" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Moving Out</p>
+                  <span className=" text-xl font-bold">2</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern  bg-red-500 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <FiMaximize2 size="18" />
+                      <i data-feather="maximize"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full rounded-lg pl-3 grid grid-cols-3 gap-3 pt-4 mt-4">
+            <div className="grid-col-1 bg-white p-4 rounded-sm ">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Total Clients</p>
+                  <span className="text-xl font-bold">14</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern bg-primary-light rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <FiUser size="18" />
+                      <i data-feather="user"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Total Tenants</p>
+                  <span className="text-xl font-bold">30</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern bg-indigo-700 rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <FiUsers size="18" />
+                      <i data-feather="user"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-col-1 bg-white p-4 rounded-md">
+              <div className="flex justify-between">
+                <div>
+                  <p className="text-muted">Total Properties</p>
+                  <span className="text-xl font-bold">104</span>
+                </div>
+                <div className="icon_holder flex-shrink-0 items-center">
+                  <div className="icon_holder-sm icon-pattern bg-black rounded-full relative">
+                    <div className="flex w-full h-full items-center text-white justify-center ">
+                      <FiHome size="18" />
+                      <i data-feather="home"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-2 ml-3">
+          <div className="bg-white rounded-md p-3 recentactivities">
+            <h3 className="text-md font-bold pl-2">Rents</h3>
+            <div className="pt-2 mt-3 pl-2">
+              <ul>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="">
+                    <div>
+                      <h5 className="font-medium text-2xl">
+                        &#8358; 20,000,000.00
+                      </h5>
+                      <p className="text-muted">Due this month</p>
+                    </div>
+                  </a>
+                </li>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="">
+                    <div>
+                      <h5 className="font-medium text-2xl text-blue-700">
+                        &#8358; 5,000,000.00
+                      </h5>
+                      <p className="text-muted">Recieved this month</p>
+                    </div>
+                  </a>
+                </li>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="">
+                    <div>
+                      <h5 className="font-medium text-2xl text-red-600">
+                        &#8358; 10,000,000.00
+                      </h5>
+                      <p className="text-muted">Overdue</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="shadow-lg border-[1px] p-4 rounded-[10px] pt-6 mt-6 text-[16px] grid grid-cols-6 gap-4">
+        <div className="col-span-2">
+          <div className="bg-white rounded-md p-3 recentactivities">
+            <div className="flex justify-between">
+              <h3 className="text-md font-bold pl-2">Recent Sign up</h3>
+              <a href="" className="flex justify-center items-center">
+                {" "}
+                <span className="text-xs">View all</span>
+                <i data-feather="chevrons-right"></i>
+                <FiChevronRight size="12" />
+              </a>
+            </div>
+            <div className="pt-3 mt-3 pl-2">
+              <ul>
+                <li className="border-b-1 py-2">
+                  <div className="flex">
+                    <div className="mr-4">
+                      <img
+                        src="/images/avatar-3.jpg"
+                        className="avatar-sm rounded-sm object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div className="flex mr-auto">
+                      <div>
+                        <h4 className="font-medium text-md">Kings Wealth </h4>
+                        <p className="text-muted text-sm">20 Mar 2021</p>
+                      </div>
+                    </div>
+                    <div className="mt-3">
+                      <a
+                        href="#"
+                        className="mt-2 py-0.5 px-2 bg-blue-700 rounded-sm text-white"
+                      >
+                        view
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li className="border-b-1 py-2">
+                  <div className="flex">
+                    <div className="mr-4">
+                      <img
+                        src="/images/avatar-2.jpg"
+                        className="avatar-sm rounded-sm object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div className="flex mr-auto">
+                      <div>
+                        <h4 className="font-medium text-md">Samuel Stans </h4>
+                        <p className="text-muted text-sm">01 Jan 2021</p>
+                      </div>
+                    </div>
+                    <div className="mt-3">
+                      <a
+                        href="#"
+                        className="mt-2 py-0.5 px-2 bg-blue-700 rounded-sm text-white"
+                      >
+                        view
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div className="bg-white rounded-md p-4 recentactivities">
+            <div className="flex justify-between">
+              <h3 className="text-md font-bold pl-2">Recent Bookings</h3>
+              <a href="" className="flex justify-center items-center">
+                {" "}
+                <span className="text-xs">View all</span>
+                <FiChevronRight size="12" />
+                <i data-feather="chevron-right"></i>
+              </a>
+            </div>
+            <div className="pt-2 mt-3 pl-2">
+              <ul>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="flex justify-between">
+                    <div>
+                      <h5 className="font-medium">David Smith</h5>
+                      <p className="text-muted">davidesmith@example.com</p>
+                      <small>12 Nov, 2020</small>
+                    </div>
+                    <div className="mt-3">
+                      <span className="bg-blue-700 text-xs text-white rounded-sm py-1 px-2">
+                        Pending
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="flex justify-between">
+                    <div>
+                      <h5 className="font-medium">James Halvit</h5>
+                      <p className="text-muted">jameshalvit@example.com</p>
+                      <small>03 Oct, 2020</small>
+                    </div>
+                    <div className="mt-3">
+                      <span className="bg-green-500 text-xs text-white rounded-sm py-1 px-2">
+                        Completed
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li className="border-b-1 py-2">
+                  <a href="#" className="flex justify-between">
+                    <div>
+                      <h5 className="font-medium">David Wokoma</h5>
+                      <p className="text-muted">davidwokoma@example.com</p>
+                      <small>01 Oct, 2020</small>
+                    </div>
+                    <div className="mt-3">
+                      <span className="bg-red-700 text-xs text-white rounded-sm py-1 px-2">
+                        Cancelled
+                      </span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div className="rounded-md p-3 bg-white">
+            <h3 className="text-md font-bold pb-2 pl-2">Calendar</h3>
+            {/* <Calendar
+                                className="calendar"
+                                /> */}
+          </div>
+        </div>
+      </div>
     </DefaultLayout>
   );
 }

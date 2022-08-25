@@ -3,45 +3,11 @@ import React from "react";
 import { FaUserAlt } from "react-icons/fa";
 import { MdMoreVert } from "react-icons/md";
 import BasicPopover from "../../reuseable/BasicPopover";
-import PropertyHeader from "./propertyHeader";
+import PropertyHeader from "../properties/propertyHeader";
 
-export default function PropertiesDetails() {
+export default function TenantDetails() {
   return (
     <PropertyHeader>
-      <Card className="mb-[35px]" header="Recently Added Property">
-        <div className="flex gap-[20px] font-semibold text-gray-500">
-          <button className="shadow-md py-[10px] px-[20px] rounded-lg text-center bg-white">
-            Delete Property
-          </button>
-          <button className="shadow-md py-[10px] px-[20px] rounded-lg text-center bg-white">
-            Confirm Property
-          </button>
-
-          <div className="">
-            <BasicPopover
-              className="px-0"
-              contentStyles="-translate-x-[10px] translate-y-[1px]"
-              btn={
-                <button className="shadow-md font-semibold px-[20px] py-[10px] rounded-lg text-center bg-white">
-                  Assign
-                </button>
-              }
-            >
-              <div className="p-[5px] px-[15px] font-medium bg-white text-center text-[14px]">
-                <button className="px-2 py-1 mb-1 text-center">PM</button>
-                <hr />
-                <button className="px-2 py-1 my-1 text-center">
-                  Accountant
-                </button>
-                <hr />
-                <button className="px-2 py-1 my-1 text-center">
-                  Facility Mgr
-                </button>
-              </div>
-            </BasicPopover>
-          </div>
-        </div>
-      </Card>
       <Card className="mb-[35px]" header="Property Manager">
         <div className="flex gap-[9%] justify-between items-center py-[10px] px-[3%]">
           <div className="w-3/5 flex items-center gap-[50px] border-r-2 border-black ">
@@ -65,59 +31,7 @@ export default function PropertiesDetails() {
           </div>
         </div>
       </Card>
-      <div className="p-[10px] px-[15px] mb-[35px]">
-        <header className="w-full flex justify-between py-[8px] text-[18px] font-semibold text-gray-700 mb-[10px]">
-          Property Views
-        </header>
-        <div className="flex gap-[5%] justify-between p-[10px]">
-          <div className="w-3/4 overflow-auto flex items-center gap-[20px]">
-            <div className="w-[200px] h-[200px] rounded-xl bg-gray-500 relative">
-              <div className="absolute z-[2] right-2 top-2">
-                <BasicPopover
-                  className="px-0"
-                  contentStyles="-translate-x-[10px] -translate-y-[5px]"
-                  btn={<MdMoreVert size="20px" />}
-                >
-                  <div className="p-[5px] px-[10px] font-medium bg-white text-center text-[13px]">
-                    <button className="px-2 text-center">Delete</button>
-                  </div>
-                </BasicPopover>
-              </div>
-            </div>
-            <div className="w-[200px] h-[200px] rounded-xl bg-gray-500 relative">
-              <div className="absolute z-[2] right-2 top-2">
-                <BasicPopover
-                  className="px-0"
-                  contentStyles="-translate-x-[10px] -translate-y-[5px]"
-                  btn={<MdMoreVert size="20px" />}
-                >
-                  <div className="p-[5px] px-[10px] font-medium bg-white text-center text-[13px]">
-                    <button className="px-2 text-center">Delete</button>
-                  </div>
-                </BasicPopover>
-              </div>
-            </div>
-            <div className="w-[200px] h-[200px] rounded-xl bg-gray-500 relative">
-              <div className="absolute z-[2] right-2 top-2">
-                <BasicPopover
-                  className="px-0"
-                  contentStyles="-translate-x-[10px] -translate-y-[5px]"
-                  btn={<MdMoreVert size="20px" />}
-                >
-                  <div className="p-[5px] px-[10px] font-medium bg-white text-center text-[13px]">
-                    <button className="px-2 text-center">Delete</button>
-                  </div>
-                </BasicPopover>
-              </div>
-            </div>
-          </div>
-          <div className="w-1/4">
-            <button className="font-semibold text-gray-600 border-[1px] border-[gray-600] shadow-lg py-[10px] px-[20px] rounded-lg text-center bg-white">
-              Add Image
-            </button>
-          </div>
-        </div>
-      </div>
+
       <Card options className="mb-[35px]" header="Property Description">
         <p className="mb-[10px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et id at
